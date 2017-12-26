@@ -2,9 +2,9 @@ import numpy as nm
 
 import pandas as pd
 
-train=pd.read_csv('train_u6lujuX_CVtuZ9i (1).csv',encoding='latin-1')
+train=pd.read_csv('traindataset.csv',encoding='latin-1')
 
-test=pd.read_csv('test1234.csv',encoding='latin-1')
+test=pd.read_csv('testdataset.csv',encoding='latin-1')
 del  test["Unnamed: 0"]
 actualresult=pd.read_csv('result.csv',encoding='latin-1')
 del  actualresult["Unnamed: 0"]
